@@ -3,7 +3,7 @@ header {
 }
 
 h1 {
-  color: var(--primary-color-blue);
+  color: var(--third-color-dark-blue);
 
   font-size: larger;
   text-align: center;

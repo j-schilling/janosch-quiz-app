@@ -1,10 +1,10 @@
 :root {
   /* Color Variables */
 
-  --primary-color-blue: navy;
+  --primary-color-blue: rgb(0, 51, 153);
   --secondary-color-white: white;
-  --third-color-silver: silver;
-  --background-color-grey: lightgray;
+  --third-color-dark-blue: rgb(12, 35, 64);
+  --background-color-grey: #eeeeee;
 }
 
 body {
