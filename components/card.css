@@ -1,4 +1,44 @@
-article {
-  border-width: 5px;
-  border-color: darkgreen;
+@import url(../global.css);
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 2px solid var(--third-color-dark-blue);
+  background-color: var(--secondary-color-white);
+  border-radius: 5px;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.question {
+  text-align: center;
+  /* padding: 30px; */
+  color: var(--third-color-dark-blue);
+}
+
+.answer {
+  align-self: center;
+}
+
+.topic-tags {
+  display: flex;
+  gap: 5px;
+  font-size: 0.6rem;
+}
+
+.topic-tag {
+  background-color: var(--background-color-grey);
+  border: 1px solid var(--third-color-dark-blue);
+  border-radius: 3px;
+  padding: 2px;
+}
+
+.bookmark {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 20px;
 }
