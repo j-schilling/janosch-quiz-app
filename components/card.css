@@ -1,4 +1,8 @@
-article {
-  border-width: 5px;
-  border-color: darkgreen;
+@import url(../global.css);
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid var(--primary-color-blue);
+  background-color: var(--secondary-color-white);
 }
