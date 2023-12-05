@@ -9,7 +9,7 @@ header {
 }
 
 h1 {
-  color: var(--third-color-dark-blue);
+  color: var(--red);
 
   font-size: medium;
   text-align: center;
