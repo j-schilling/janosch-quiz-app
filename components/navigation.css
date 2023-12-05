@@ -15,10 +15,13 @@ footer {
 }
 
 .nav-item {
-  height: 30px;
+  height: 50px;
 }
 
 .nav-item img {
   width: 100%;
   height: 100%;
+}
+
+.actual {
 }
