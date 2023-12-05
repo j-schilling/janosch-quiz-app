@@ -1,0 +1,24 @@
+footer {
+  padding: 5px;
+  position: sticky;
+  width: 100vw;
+  bottom: 0;
+  z-index: 5;
+  background-color: var(--background-color-grey);
+  box-shadow: 0px 1px 1px 2px var(--third-color-dark-blue);
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  height: 30px;
+}
+
+.nav-item img {
+  width: 100%;
+  height: 100%;
+}

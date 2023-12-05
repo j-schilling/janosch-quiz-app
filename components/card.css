@@ -19,25 +19,21 @@
   color: var(--third-color-dark-blue);
 }
 
-.answer-button {
-  color: var(--secondary-color-white);
-  background-color: var(--primary-color-blue);
-  border: 1px solid var(--third-color-dark-blue);
-  border-radius: 2px;
-  padding: 5px;
-  width: 50vw;
-  align-self: center;
-}
-
 .answer {
   align-self: center;
 }
 
+.topic-tags {
+  display: flex;
+  gap: 5px;
+  font-size: 0.6rem;
+}
+
 .topic-tag {
-  /* left: 10px;
-  bottom: 10px; */
-  width: 40px;
-  justify-content: flex-end;
+  background-color: var(--background-color-grey);
+  border: 1px solid var(--third-color-dark-blue);
+  border-radius: 3px;
+  padding: 2px;
 }
 
 .bookmark {
