@@ -16,6 +16,7 @@ footer {
 
 .nav-item {
   height: 50px;
+  width: auto;
 }
 
 .nav-item img {
