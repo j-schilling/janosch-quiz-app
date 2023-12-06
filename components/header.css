@@ -5,7 +5,7 @@ header {
   top: 0;
   z-index: 5;
   background-color: var(--background-color-grey);
-  box-shadow: 1px 1px 1px var(--red);
+  box-shadow: 1px 1px 1px var(--third-color-dark-blue);
 }
 
 h1 {

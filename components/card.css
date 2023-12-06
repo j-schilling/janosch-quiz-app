@@ -3,7 +3,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 20px;
   border: 2px solid var(--third-color-dark-blue);
   background-color: var(--secondary-color-white);
   border-radius: 5px;
