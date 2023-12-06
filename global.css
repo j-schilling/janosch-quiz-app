@@ -7,10 +7,10 @@
   --background-color-grey: #eeeeee; */
 
   --primary-color-blue: rgb(221, 95, 46);
-  --secondary-color-white: white;
+  --secondary-color-white: rgb(255, 255, 255);
   --third-color-dark-blue: rgb(50, 80, 36);
   --background-color-grey: rgb(236, 229, 222);
-  --red: #8275cd;
+  --red: rgb(131, 118, 206);
 }
 
 body {

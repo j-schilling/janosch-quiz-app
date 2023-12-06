@@ -6,4 +6,5 @@
   padding: 5px;
   width: 50vw;
   align-self: center;
+  box-shadow: 1px 1px 1px var(--third-color-dark-blue);
 }

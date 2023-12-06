@@ -3,14 +3,15 @@
 .card {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 20px;
   border: 2px solid var(--third-color-dark-blue);
   background-color: var(--secondary-color-white);
   border-radius: 5px;
   justify-content: space-around;
-  gap: 10px;
-  padding: 10px;
+  gap: 18px;
+  padding: 15px;
   position: relative;
+  box-shadow: 2px 2px 2px var(--third-color-dark-blue);
 }
 
 .question {
@@ -41,5 +42,5 @@
   position: absolute;
   top: -10px;
   right: 0;
-  width: 20px;
+  width: 30px;
 }
