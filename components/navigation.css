@@ -2,10 +2,10 @@ footer {
   padding: 5px;
   position: sticky;
   width: 100vw;
-  bottom: 0;
+  bottom: 0vh;
   z-index: 5;
-  background-color: var(--background-color-grey);
-  box-shadow: 0px 1px 1px 2px var(--third-color-dark-blue);
+  background-color: var(--background-color);
+  box-shadow: 0px 1px 1px 2px var(--third-color);
 }
 
 .nav-list {

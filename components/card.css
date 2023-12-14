@@ -4,21 +4,21 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
-  border: 2px solid var(--third-color-dark-blue);
-  background-color: var(--secondary-color-white);
+  border: 2px solid var(--third-color);
+  background-color: var(--secondary-color);
   border-radius: 5px;
   justify-content: space-around;
   gap: 18px;
   padding: 15px;
   position: relative;
-  box-shadow: 2px 2px 2px var(--third-color-dark-blue);
+  box-shadow: 2px 2px 2px var(--third-color);
 }
 
 .question {
   text-align: center;
   /* padding: 30px; */
   font-size: large;
-  color: var(--third-color-dark-blue);
+  color: var(--third-color);
 }
 
 .answer {
@@ -32,8 +32,8 @@
 }
 
 .topic-tag {
-  background-color: var(--background-color-grey);
-  border: 1px solid var(--third-color-dark-blue);
+  background-color: var(--background-color);
+  border: 1px solid var(--third-color);
   border-radius: 3px;
   padding: 2px;
 }
@@ -43,4 +43,8 @@
   top: -10px;
   right: 0;
   width: 30px;
+}
+
+.profile-pic {
+  padding: 15px;
 }
