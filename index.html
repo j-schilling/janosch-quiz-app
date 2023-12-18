@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRIENDS?</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="js/index.js"></script>
   </head>
   <body>
     <header><h1>Do you know your FRIENDS?</h1></header>
-    <main>
+    <main data-js="main">
       <section class="card">
         <p class="question">
           What is the name of the coffee shop where the Friends gang frequently
           hangs out?
         </p>
-        <button class="answer-button">Show answer</button>
+        <button class="answer-button" data-js="answer-button">
+          Show answer
+        </button>
         <p hidden class="answer">Central Perk</p>
         <div class="topic-tags">
           <div class="topic-tag">#locations</div>
           <div class="topic-tag">#parks</div>
         </div>
-        <img
-          class="bookmark"
-          src="./resources/bookmark.png"
-          alt="empty bookmark"
-        />
+        <div class="bookmark" alt="empty bookmark" data-js="bookmark"></div>
       </section>
       <section class="card">
         <p class="question">
@@ -38,11 +37,11 @@
           <div class="topic-tag">#ross</div>
           <div class="topic-tag">#monica</div>
         </div>
-        <img
-          class="bookmark"
-          src="./resources/bookmark_filled.png"
+        <div
+          class="bookmark bookmark__filled"
           alt="empty bookmark"
-        />
+          data-js="bookmark"
+        ></div>
       </section>
       <section class="card">
         <p class="question">
@@ -55,11 +54,7 @@
           <div class="topic-tag">#who?</div>
           <div class="topic-tag">#relationships</div>
         </div>
-        <img
-          class="bookmark"
-          src="./resources/bookmark.png"
-          alt="empty bookmark"
-        />
+        <img class="bookmark bookmark__unfilled" alt="empty bookmark" />
       </section>
       <section class="card">
         <p class="question">
