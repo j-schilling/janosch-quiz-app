@@ -14,6 +14,16 @@
   box-shadow: 2px 2px 2px var(--third-color);
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+label {
+  margin-bottom: -14px;
+}
+
 .question {
   text-align: center;
   /* padding: 30px; */
