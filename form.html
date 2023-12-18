@@ -5,22 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRIENDS?</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="js/form.js"></script>
   </head>
   <body>
     <header><h1>Do you know your FRIENDS?</h1></header>
-    <main>
-      <section class="card profile-card">
-        <img
-          src="./resources/profile.png"
-          alt="your profile picture"
-          class="profile-pic"
-        />
+    <main data-js="main">
+      <section class="card form">
+        <form action="" data-js="form">
+          <label for="your_question">Your question:</label>
+          <textarea
+            type="text"
+            name="your_question"
+            id="your_question"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <label for="your-answer">Your answer:</label>
+          <textarea
+            type="text"
+            name="your_answer"
+            id="your_answer"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <label for="tag">Tag:</label>
+          <input type="text" name="tag" id="tag" />
+          <button type="submit" class="answer-button">Submit</button>
+        </form>
       </section>
-      <section class="card"></section>
-      <section class="card"></section>
-      <section class="card"></section>
-      <section class="card"></section>
-      <section class="card"></section>
     </main>
     <footer>
       <nav class="navbar">
@@ -37,12 +49,12 @@
           </li>
           <li class="nav-item">
             <a href="./form.html"
-              ><img src="./resources/profile.png" alt="Profile"
+              ><img src="./resources/profile_filled.png" alt="Profile"
             /></a>
           </li>
           <li class="nav-item">
             <a href="./profile.html"
-              ><img src="./resources/profile_filled.png" alt="Profile"
+              ><img src="./resources/profile.png" alt="Profile"
             /></a>
           </li>
         </ul>
