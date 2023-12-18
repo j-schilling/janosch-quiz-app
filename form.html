@@ -14,22 +14,45 @@
         <form action="" data-js="form" class="form">
           <label for="your_question">Your question:</label>
           <textarea
+            class="textarea"
+            data-js="your_question"
             type="text"
             name="your_question"
             id="your_question"
             cols="30"
             rows="10"
+            maxlength="150"
+            placeholder="Please enter the question here."
           ></textarea>
+          <p class="remaining_characters">
+            <span data-js="remaining_characters_question">150</span> characters
+            left
+          </p>
           <label for="your-answer">Your answer:</label>
           <textarea
+            class="textarea"
+            data-js="your_answer"
             type="text"
             name="your_answer"
             id="your_answer"
             cols="30"
             rows="10"
+            maxlength="150"
+            placeholder="Please enter the answer here."
           ></textarea>
+          <p class="remaining_characters">
+            <span data-js="remaining_characters_answer">150</span> characters
+            left
+          </p>
           <label for="tag">Tag:</label>
-          <input type="text" name="tag" id="tag" />
+          <input
+            class="textarea"
+            type="text"
+            name="tag"
+            id="tag"
+            placeholder="#Tag your question"
+            maxlength="150"
+          />
           <button type="submit" class="answer-button">Submit</button>
         </form>
       </section>
@@ -49,7 +72,7 @@
           </li>
           <li class="nav-item">
             <a href="./form.html"
-              ><img src="./resources/profile_filled.png" alt="Profile"
+              ><img src="./resources/plus_filled.png" alt="Profile"
             /></a>
           </li>
           <li class="nav-item">

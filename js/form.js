@@ -1,7 +1,26 @@
 console.clear();
+const MAX_CHARACTERS = 150;
 
 const form = document.querySelector('[data-js="form"]');
 const main = document.querySelector('[data-js="main"]');
+const yourQuestionInput = document.querySelector('[data-js="your_question"]');
+const yourAnswerInput = document.querySelector('[data-js="your_answer"]');
+const remainingCharactersQuestion = document.querySelector(
+  '[data-js="remaining_characters_question"]'
+);
+const remainingCharactersAnswer = document.querySelector(
+  '[data-js="remaining_characters_answer"]'
+);
+
+yourQuestionInput.addEventListener("input", (event) => {
+  remainingCharactersQuestion.textContent =
+    MAX_CHARACTERS - parseInt(event.target.value.length);
+});
+
+yourAnswerInput.addEventListener("input", (event) => {
+  remainingCharactersAnswer.textContent =
+    MAX_CHARACTERS - parseInt(event.target.value.length);
+});
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -37,5 +56,6 @@ form.addEventListener("submit", (event) => {
         <div class="bookmark" alt="empty bookmark" data-js="bookmark"></div>
   `;
 
+  window.scrollTo(0, 2000);
   form.reset();
 });

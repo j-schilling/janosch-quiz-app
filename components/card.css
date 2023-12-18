@@ -20,13 +20,23 @@
   gap: 18px;
 }
 
+.textarea {
+  padding: 10px;
+}
+
+.remaining_characters {
+  text-align: right;
+  margin-top: -14px;
+  font-size: small;
+}
+
 label {
   margin-bottom: -14px;
+  color: var(--third-color);
 }
 
 .question {
   text-align: center;
-  /* padding: 30px; */
   font-size: large;
   color: var(--third-color);
 }
@@ -50,7 +60,7 @@ label {
 
 .bookmark {
   position: absolute;
-  top: -10px;
+  top: -13px;
   right: 10px;
   height: 30px;
   width: 30px;
