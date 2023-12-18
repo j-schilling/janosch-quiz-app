@@ -56,5 +56,6 @@ form.addEventListener("submit", (event) => {
         <div class="bookmark" alt="empty bookmark" data-js="bookmark"></div>
   `;
 
+  window.scrollTo(0, 2000);
   form.reset();
 });
