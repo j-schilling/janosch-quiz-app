@@ -4,8 +4,8 @@ header {
   width: 100vw;
   top: 0;
   z-index: 5;
-  background-color: var(--background-color-grey);
-  box-shadow: 1px 1px 1px var(--third-color-dark-blue);
+  background-color: var(--background-color);
+  box-shadow: 1px 1px 1px var(--third-color);
 }
 
 h1 {

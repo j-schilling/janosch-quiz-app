@@ -4,23 +4,23 @@ const MAX_CHARACTERS = 150;
 const form = document.querySelector('[data-js="form"]');
 const main = document.querySelector('[data-js="main"]');
 const yourQuestionInput = document.querySelector('[data-js="your_question"]');
-const remainingCharacters = document.querySelector(
-  '[data-js="remaining_characters"]'
+const yourAnswerInput = document.querySelector('[data-js="your_answer"]');
+const remainingCharactersQuestion = document.querySelector(
+  '[data-js="remaining_characters_question"]'
+);
+const remainingCharactersAnswer = document.querySelector(
+  '[data-js="remaining_characters_answer"]'
 );
 
-console.log(yourQuestionInput);
-console.log(remainingCharacters);
-
 yourQuestionInput.addEventListener("input", (event) => {
-  remainingCharacters.textContent =
+  remainingCharactersQuestion.textContent =
     MAX_CHARACTERS - parseInt(event.target.value.length);
 });
 
-// function calcRemainingCharacters(remainingCharacters, MAX_CHARACTERS) {
-//   remainingCharacters = MAX_CHARACTERS - yourQuestionInput.value.lenght;
-//   return remainingCharacters;
-// }
-// calcRemainingCharacters();
+yourAnswerInput.addEventListener("input", (event) => {
+  remainingCharactersAnswer.textContent =
+    MAX_CHARACTERS - parseInt(event.target.value.length);
+});
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
