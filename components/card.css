@@ -20,6 +20,10 @@
   gap: 18px;
 }
 
+label {
+  margin-bottom: -14px;
+}
+
 .question {
   text-align: center;
   /* padding: 30px; */
