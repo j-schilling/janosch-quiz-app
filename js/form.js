@@ -55,7 +55,26 @@ form.addEventListener("submit", (event) => {
         </div>
         <div class="bookmark" alt="empty bookmark" data-js="bookmark"></div>
   `;
+  const answerButton = document.querySelector('[data-js="answer-button"]');
+  const bookmark = document.querySelector('[data-js="bookmark"]');
+  const answer = document.querySelector('[data-js="answer"]');
 
+  let isAnswerButtonClicked = false;
+
+  bookmark.addEventListener("click", () => {
+    bookmark.classList.toggle("bookmark__filled");
+  });
+
+  answerButton.addEventListener("click", () => {
+    isAnswerButtonClicked = !isAnswerButtonClicked;
+    isAnswerButtonClicked
+      ? answer.removeAttribute("hidden")
+      : answer.setAttribute("hidden", true);
+
+    isAnswerButtonClicked
+      ? (answerButton.textContent = "Hide answer")
+      : (answerButton.textContent = "Show answer");
+  });
   window.scrollTo(0, 2000);
   form.reset();
 });
