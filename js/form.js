@@ -77,4 +77,6 @@ form.addEventListener("submit", (event) => {
   });
   window.scrollTo(0, 2000);
   form.reset();
+  remainingCharactersQuestion.textContent = 150;
+  remainingCharactersAnswer.textContent = 150;
 });
